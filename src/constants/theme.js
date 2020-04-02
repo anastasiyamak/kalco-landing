@@ -1,4 +1,3 @@
-/* eslint-disable prettier/prettier */
 import get from 'lodash/get';
 
 export const theme = {
@@ -17,9 +16,8 @@ export const theme = {
         logo: '700 40px MontserratBold, sans-serif',
         pageHeading: '700 48px MontserratBold, sans-serif;',
         smallPageHeading: '700 42px MontserratBold, sans-serif;',
-        text: '300 26px Rubik, sans-serif;',
-        smallText: '300 22px Rubik, sans-serif;',
-        microText: '300 16px Rubik, sans-serif;',
+        text: '300 22px Rubik, sans-serif;',
+        smallText: '300 16px Rubik, sans-serif;',
     },
     easing: {
         in: 'cubic-bezier(.51,-0.21,.39,1.46)',

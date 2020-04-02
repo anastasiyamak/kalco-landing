@@ -5,16 +5,15 @@ import { StaticQuery, graphql } from 'gatsby';
 import Head from 'components/head';
 import Header from 'components/header';
 import GlobalStyle from 'global.css.js';
-import { Container } from './styles';
+import Footer from 'components/footer'
 
 const Layout = ({ data, children }) => (
     <div>
         <GlobalStyle />
         <Head />
-        <Container>
-            <Header title={data.site.siteMetadata.siteTitle} />
-            {children}
-        </Container>
+        <Header title={data.site.siteMetadata.siteTitle} />
+        {children}
+        <Footer />
     </div>
 );
 

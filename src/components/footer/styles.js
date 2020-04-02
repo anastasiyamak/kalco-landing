@@ -1,5 +1,4 @@
 import styled, { css } from 'styled-components';
-import { customMedia } from 'constants/breakpoints';
 
 export const Container = styled.div`
     width: 80%;

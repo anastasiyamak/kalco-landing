@@ -30,14 +30,7 @@ export const MainTitle = styled.h1`
 `;
 
 export const SubTitle = styled.h2`
-    font: ${font('smallText')};
+    font: ${font('text')};
     color: ${props => (props.color ? color(props.color) : color('white'))};
     margin: 15px 0 20px;
-`;
-
-export const Title = styled.h2`
-    font: ${font('title')};
-    color: ${props => (props.color ? color(props.color) : color('white'))};
-    line-height: 1.5em;
-    margin-top: 30px;
 `;

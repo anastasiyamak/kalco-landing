@@ -1,7 +1,7 @@
 {
-  "name": "arcata.io",
+  "name": "kalco",
   "license": "MIT",
-  "author": "<hello@arcata.io>",
+  "author": "<hello.kalco@gmail.com>",
   "scripts": {
     "develop": "gatsby develop",
     "serve": "gatsby serve",

@@ -1,4 +1,3 @@
-/* eslint-disable prettier/prettier */
 import React from 'react';
 import { MainTitle } from 'components/title';
 import Text from 'components/text';
@@ -13,7 +12,7 @@ const Main = () => (
         <MainTitle>
             Приложение для бесплатного просмотра мультимедиа контента
         </MainTitle>
-        <Text small color="whiteOpacity">
+        <Text regular color="whiteOpacity">
             Просматривайте более 15000 сериалов в своем android
             смартфоне/планшете
         </Text>

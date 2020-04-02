@@ -70,11 +70,6 @@ export default createGlobalStyle`
     color: ${color('white')};
     text-decoration: none;
     transition: color 0.3s linear;
-    
-    :hover {
-      color: ${color('red')};
-      cursor: pointer;
-    }
   }
 
   pre {

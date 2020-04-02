@@ -9,7 +9,7 @@ export default styled.button`
     background: ${color('orange')};
     border: none;
     border-radius: 4px;
-    font: ${font('microText')};
+    font: ${font('smallText')};
     font-weight: 700;
     line-height: 29px;
     outline: none;

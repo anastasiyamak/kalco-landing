@@ -1,4 +1,3 @@
-/* eslint-disable prettier/prettier */
 import React from 'react';
 import Flex from 'styled-flex-component';
 import { MainTitle, SubTitle } from 'components/title';
@@ -11,7 +10,7 @@ const AppVersions = () => (
         <div>
             <MainTitle small>Текущая версия приложения</MainTitle>
             <SubTitle color="whiteOpacity">V.0.15</SubTitle>
-            <Text small> новое в приложении: </Text>
+            <Text regular> новое в приложении: </Text>
             <ListItems>
                 <Flex>
                     <Circle />
@@ -26,7 +25,7 @@ const AppVersions = () => (
                     Коллекция фильмов
                 </Flex>
             </ListItems>
-            <Text small>появится в следующей версии:</Text>
+            <Text regular>появится в следующей версии:</Text>
             <ListItems>
                 <Flex>
                     <Circle />

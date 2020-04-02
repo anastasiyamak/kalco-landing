@@ -1,7 +1,7 @@
 {
     "version": 2,
-    "name": "arcata.io",
-    "alias": "arcata.io",
+    "name": "kalco",
+    "alias": "kalco",
     "builds": [
         { "src": "package.json", "use": "@now/static-build", "config": {"distDir": "public"} }
     ],
