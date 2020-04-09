@@ -2,10 +2,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { StaticQuery, graphql } from 'gatsby';
-import Head from 'components/head';
-import Header from 'components/header';
+import Head from '../Head/index';
+import Header from '../Header/index';
 import GlobalStyle from 'global.css.js';
-import Footer from 'components/footer'
+import Footer from 'components/footer';
 
 const Layout = ({ data, children }) => (
     <div>

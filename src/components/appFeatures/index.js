@@ -1,6 +1,6 @@
 import React from 'react';
 import Flex from 'styled-flex-component';
-import { MainTitle } from 'components/title';
+import { MainTitle } from '../Title/index';
 import Text from 'components/text';
 import { Container, FeatureBlock } from './styles';
 

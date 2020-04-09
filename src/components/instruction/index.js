@@ -1,5 +1,5 @@
 import React from 'react';
-import { MainTitle } from 'components/title';
+import { MainTitle } from '../Title/index';
 import Text from 'components/text';
 import {
     Container,
@@ -19,12 +19,8 @@ const Instruction = () => (
                     <Text regular>
                         Скачайте apk файл приложения на ваше устройство
                     </Text>
-                    <Text regular>
-                        тут какой-нибдуь ебланский текст
-                    </Text>
-                    <Text regular>
-                        тут какой-нибдуь ебланский текст
-                    </Text>
+                    <Text regular>тут какой-нибдуь ебланский текст</Text>
+                    <Text regular>тут какой-нибдуь ебланский текст</Text>
                 </ListItems>
             </InstructionBlock>
             <VideoWrapper>

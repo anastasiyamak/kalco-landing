@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'gatsby';
-import Nav from 'components/header/nav';
+import Nav from './Nav/index';
 import { Container, Logo } from './styles';
 import BurgerButton from 'components/burgerButton';
 import MobileMenu from 'components/mobileMenu';

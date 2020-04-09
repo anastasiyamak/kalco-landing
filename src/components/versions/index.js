@@ -1,6 +1,6 @@
 import React from 'react';
 import Flex from 'styled-flex-component';
-import { MainTitle, SubTitle } from 'components/title';
+import { MainTitle, SubTitle } from '../Title/index';
 import Text from 'components/text';
 import { Container, ImgWrapper, ListItems, Circle } from './styles';
 
@@ -41,7 +41,7 @@ const AppVersions = () => (
             </ListItems>
         </div>
         <ImgWrapper>
-            <img src='./screen.png' alt='screen'/>
+            <img src="./screen.png" alt="screen" />
         </ImgWrapper>
     </Container>
 );

@@ -1,5 +1,5 @@
 import React from 'react';
-import { MainTitle } from 'components/title';
+import { MainTitle } from '../Title/index';
 import Text from 'components/text';
 import Button from 'components/button';
 import { Container, PhoneWrapper } from './styles';
@@ -17,10 +17,10 @@ const Main = () => (
         </Text>
         <Button main>скачать .apk</Button>
         <PhoneWrapper>
-            <img src='./phone_mockup.png' alt='phone'/>
+            <img src="./phone_mockup.png" alt="phone" />
             <video playsinline autoPlay muted loop>
-                <source src='./video.mp4' type="video/mp4" />
-            </video> 
+                <source src="./video.mp4" type="video/mp4" />
+            </video>
         </PhoneWrapper>
     </Container>
 );
