@@ -7,7 +7,7 @@ export const MainTitle = styled.h1`
     color: ${props => (props.color ? color(props.color) : color('white'))};
     margin: 40px 0 20px;
 
-    ${customMedia.lessThan('mobile')`
+    ${customMedia.lessThan('tablet')`
         font-size: 38px;
     `}
 

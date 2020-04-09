@@ -3,8 +3,7 @@ import { MainTitle } from 'components/title';
 import Text from 'components/text';
 import Button from 'components/button';
 import { Container, PhoneWrapper } from './styles';
-import Logo from 'components/logo';
-import Phone from './image.js';
+import Logo from './logo/index';
 
 const Main = () => (
     <Container id="main">
@@ -18,7 +17,10 @@ const Main = () => (
         </Text>
         <Button main>скачать .apk</Button>
         <PhoneWrapper>
-            <Phone />
+            <img src='./phone_mockup.png' alt='phone'/>
+            <video playsinline autoPlay muted loop>
+                <source src='./video.mp4' type="video/mp4" />
+            </video> 
         </PhoneWrapper>
     </Container>
 );

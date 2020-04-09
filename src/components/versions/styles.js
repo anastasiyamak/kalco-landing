@@ -11,8 +11,11 @@ export const Container = styled.div`
 `;
 
 export const ImgWrapper = styled.div`
-    width: 400px;
-
+    max-width: 400px;
+    
+    img{
+        width: 100%;
+    }
     ${customMedia.lessThan('mobile')`
         display: none;
     `}

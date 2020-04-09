@@ -2,7 +2,7 @@ import styled, { css } from 'styled-components';
 import { font, color } from 'constants/theme';
 import { customMedia } from 'constants/breakpoints';
 
-export const Container = styled.span`  
+export const Container = styled.p`  
     ${props =>
         props.regular &&
         css`

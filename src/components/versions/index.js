@@ -3,7 +3,6 @@ import Flex from 'styled-flex-component';
 import { MainTitle, SubTitle } from 'components/title';
 import Text from 'components/text';
 import { Container, ImgWrapper, ListItems, Circle } from './styles';
-import Img from './image';
 
 const AppVersions = () => (
     <Container id="versions">
@@ -42,7 +41,7 @@ const AppVersions = () => (
             </ListItems>
         </div>
         <ImgWrapper>
-            <Img />
+            <img src='./screen.png' alt='screen'/>
         </ImgWrapper>
     </Container>
 );

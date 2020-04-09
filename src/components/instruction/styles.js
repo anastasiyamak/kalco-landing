@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import {color, font} from 'constants/theme'
 import { customMedia } from 'constants/breakpoints';
 
 export const Container = styled.div`
@@ -25,8 +26,6 @@ export const ContainerInner = styled.div`
 `;
 
 export const ListItems = styled.div`
-    display: flex;
-    flex-direction: column;
     margin-top: 30px;
     width: 80%;
     span {

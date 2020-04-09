@@ -19,14 +19,16 @@ const Instruction = () => (
                     <Text regular>
                         Скачайте apk файл приложения на ваше устройство
                     </Text>
-                    <Text regular>тут какой-нибдуь ебланский текст</Text>
-                    <Text regular>тут какой-нибдуь ебланский текст</Text>
+                    <Text regular>
+                        тут какой-нибдуь ебланский текст
+                    </Text>
+                    <Text regular>
+                        тут какой-нибдуь ебланский текст
+                    </Text>
                 </ListItems>
             </InstructionBlock>
             <VideoWrapper>
-                <Video
-                    videoSrcURL="https://www.youtube.com/embed/NkRkuI0ZgX0"
-                />
+                <Video videoSrcURL="https://www.youtube.com/embed/NkRkuI0ZgX0" />
             </VideoWrapper>
         </ContainerInner>
     </Container>
