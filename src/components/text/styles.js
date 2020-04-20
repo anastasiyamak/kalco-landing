@@ -12,7 +12,7 @@ export const Container = styled.p`
                 props.color ? color(props.color) : color('white')};
 
             ${customMedia.lessThan('mobile')`
-                font-size: 20px;
+                font-size: 18px;
             `}
         `}
 

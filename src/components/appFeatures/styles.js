@@ -12,7 +12,7 @@ export const Container = styled.div`
 
     ${customMedia.lessThan('mobile')`
         height: auto;
-        padding-top: 40px;
+        padding-top: 60px;
     `}
 
     .features-blocks {

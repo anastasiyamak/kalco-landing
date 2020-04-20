@@ -23,13 +23,12 @@ module.exports = {
                 },
             },
         },
-        // {
-        //     resolve: 'gatsby-plugin-web-font-loader',
-        //     options: {
-        //         google: {
-        //             families: ['Rubik'],
-        //         },
-        //     },
-        // },
+        {
+            resolve: `gatsby-source-filesystem`,
+            options: {
+                name: `images`,
+                path: `${__dirname}/src/images`,
+            },
+        },
     ],
 };

@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import {color, font} from 'constants/theme'
 import { customMedia } from 'constants/breakpoints';
 
 export const Container = styled.div`
@@ -48,6 +47,9 @@ export const InstructionBlock = styled.div`
         width: 100%;
         margin-top: 90px;
         margin-bottom: 40px;
+    `}
+    ${customMedia.lessThan('mobile')`
+        margin-top: 60px;
     `}
 `;
 export const VideoWrapper = styled.div`

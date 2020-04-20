@@ -13,30 +13,22 @@ const AppVersions = () => (
             <ListItems>
                 <Flex>
                     <Circle />
-                    Скачивание и оффлайн просмотр
+                    Оптимизация приложения под Android TV
                 </Flex>
                 <Flex>
-                    <Circle />
-                    Оптимизация приложения для AndroidTv
-                </Flex>
-                <Flex>
-                    <Circle last />
-                    Коллекция фильмов
+                    <Circle last/>
+                    <span>Уведомления о выходе новых серий избранных сериалов</span>
                 </Flex>
             </ListItems>
             <Text regular>появится в следующей версии:</Text>
             <ListItems>
                 <Flex>
                     <Circle />
-                    Скачивание и оффлайн просмотр
-                </Flex>
-                <Flex>
-                    <Circle />
-                    Оптимизация приложения для AndroidTv
-                </Flex>
-                <Flex>
-                    <Circle last />
                     Коллекция фильмов
+                </Flex>
+                <Flex>
+                    <Circle last/>
+                    Скачивание и оффлайн просмотр
                 </Flex>
             </ListItems>
         </div>

@@ -16,8 +16,8 @@ export const theme = {
         logo: '700 40px MontserratBold, sans-serif',
         pageHeading: '700 48px MontserratBold, sans-serif;',
         smallPageHeading: '700 42px MontserratBold, sans-serif;',
-        text: '300 22px MontserratBold, sans-serif;',
-        smallText: '300 16px MontserratBold, sans-serif;',
+        text: '300 22px Rubik, sans-serif;',
+        smallText: '300 16px Rubik, sans-serif;',
     },
     easing: {
         in: 'cubic-bezier(.51,-0.21,.39,1.46)',

@@ -7,7 +7,21 @@ export const Container = styled.div`
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding-top: 130px;
+
+    div{
+        line-height: 24px;
+        ${customMedia.lessThan('mobile')`
+            font-size: 15px;
+            margin-bottom: 15px;
+        `}
+    }
+
+    ${customMedia.lessThan('mobile')`
+        width: 87%;
+        padding-top: 100px;
+    `}
 `;
 
 export const ImgWrapper = styled.div`
@@ -48,4 +62,10 @@ export const Circle = styled.div`
                 height: 0;
             }
         `}
+
+    ${customMedia.lessThan('mobile')`
+        width: 8px;
+        height: 8px;
+        margin: 5px 10px 30px 0;
+    `}
 `;
