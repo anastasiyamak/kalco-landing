@@ -11,6 +11,7 @@ export const Container = styled.nav`
 
         li {
             margin-left: 30px;
+            cursor: pointer;
         }
 
         ${customMedia.lessThan('tablet')`

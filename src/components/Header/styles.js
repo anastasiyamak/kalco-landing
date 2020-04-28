@@ -22,3 +22,11 @@ export const Logo = styled.h1`
         margin-left: 20px;
     `}
 `;
+
+export const ButtonWrapper = styled.a`
+    display: none;
+
+    ${customMedia.lessThan('tablet')`
+        display: block;
+    `}
+`;

@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import ButtonWrapper from './styles';
+import useFirebase from '../useFirebase';
 
 export default function Button({
     children,
@@ -9,8 +10,19 @@ export default function Button({
     onClick,
     ...restProps
 }) {
+
+ const firebase = useFirebase();
+
+    function onDownloadButtonClick() {
+        console.log('downloadbutton clicked');
+        if (!firebase) return;
+        firebase.analytics().logEvent('download_button_clicked');
+    }
+    
+
     function handleClick(e) {
         e.target.blur();
+        onDownloadButtonClick();
         onClick();
     }
 

@@ -14,6 +14,7 @@ export default styled.button`
     line-height: 29px;
     outline: none;
     width: fit-content;
+    cursor: pointer;
 
     ${props =>
         props.main &&
@@ -30,13 +31,13 @@ export default styled.button`
             z-index: 10;
             margin: 0;
             right: 0;
-            transform: translateX(-65%);
+            transform: translate(-65%, -50%);
 
             ${customMedia.lessThan('tablet')`
                 display: block;
             `}
             ${customMedia.lessThan('smallMobile')`
-                transform: translateX(-50%);
+                transform: translate(-50%, -50%);
             `}
         `}
 `;

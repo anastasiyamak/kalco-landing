@@ -6,15 +6,18 @@ import Header from '../Header/index';
 import GlobalStyle from 'global.css.js';
 import Footer from 'components/footer';
 
-const Layout = ({ data, children }) => (
-    <div>
-        <GlobalStyle />
-        <Head />
-        <Header title={data.site.siteMetadata.siteTitle} />
-        {children}
-        <Footer />
-    </div>
-);
+const Layout = ({ data, children }) => {
+    
+    return (
+        <div>
+            <GlobalStyle />
+            <Head />
+            <Header title={data.site.siteMetadata.siteTitle} />
+            {children}
+            <Footer />
+        </div>
+    );
+}
 
 if (typeof window !== 'undefined') {
     require('smooth-scroll')('a[href*="#"]');

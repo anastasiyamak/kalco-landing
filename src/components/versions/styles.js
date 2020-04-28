@@ -12,10 +12,15 @@ export const Container = styled.div`
 
     div{
         line-height: 24px;
+        
         ${customMedia.lessThan('mobile')`
             font-size: 15px;
             margin-bottom: 15px;
         `}
+
+        span{
+            width: 80%;
+        }
     }
 
     ${customMedia.lessThan('mobile')`
