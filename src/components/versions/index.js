@@ -8,7 +8,7 @@ const AppVersions = () => (
     <Container id="versions">
         <div>
             <MainTitle small>Текущая версия приложения</MainTitle>
-            <SubTitle color="whiteOpacity">V.0.15</SubTitle>
+            <SubTitle color="whiteOpacity">0.0.45</SubTitle>
             <Text regular> новое в приложении: </Text>
             <ListItems>
                 <Flex>
