@@ -15,8 +15,8 @@ const Main = () => (
             Просматривайте более 15000 сериалов в своем android
             смартфоне/планшете/TV
         </Text>
-        <a href="https://firebasestorage.googleapis.com/v0/b/kalco-d7c54.appspot.com/o/app-kalco-release-v0.0.42-vc42.apk?alt=media&token=bcaf3954-db81-4b07-a620-cd0b36eb49b3">
-           <Button main>скачать .apk</Button> 
+        <a href="https://firebasestorage.googleapis.com/v0/b/kalco-d7c54.appspot.com/o/app-kalco-release-v0.0.45-vc45.apk?alt=media&token=8efa692e-704e-4a69-ba4d-2febf212ce7b">
+            <Button main>скачать .apk</Button>
         </a>
         <PhoneWrapper>
             <img src="./phone_mockup.png" alt="phone" />
