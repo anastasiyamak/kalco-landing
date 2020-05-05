@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'gatsby';
 import * as S from './styles';
 import Button from 'components/button';
+import {Url} from 'constants/urls';
 
 const Nav = () => {
     return (
@@ -22,7 +23,7 @@ const Nav = () => {
                     <Link to="/#versions">Версии приложения</Link>
                 </li>
                 <li>
-                    <a href="https://firebasestorage.googleapis.com/v0/b/kalco-d7c54.appspot.com/o/app-kalco-release-v0.0.45-vc45.apk?alt=media&token=8efa692e-704e-4a69-ba4d-2febf212ce7b">
+                    <a href={Url}>
                         <Button>Скачать</Button>
                     </a>
                 </li>

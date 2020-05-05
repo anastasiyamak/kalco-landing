@@ -95,6 +95,8 @@ const Head = ({
             name="msapplication-square310x310"
         />
 
+        <meta name="yandex-verification" content="70b448f8d67cc841" />
+
         <link href="/manifest.json" rel="manifest" />
 
         <link
