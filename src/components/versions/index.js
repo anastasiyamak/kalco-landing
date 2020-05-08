@@ -8,16 +8,22 @@ const AppVersions = () => (
     <Container id="versions">
         <div>
             <MainTitle small>Текущая версия приложения</MainTitle>
-            <SubTitle color="whiteOpacity">0.0.45</SubTitle>
+            <SubTitle color="whiteOpacity">0.0.46</SubTitle>
             <Text regular> новое в приложении: </Text>
             <ListItems>
                 <Flex>
-                    <Circle />
-                    Оптимизация приложения под Android TV
+                    <Circle first/>
+                    <span>
+                        Исправлена ошибка при загрузке серий на ТВ
+                        устройствах  
+                    </span>
                 </Flex>
                 <Flex>
-                    <Circle last/>
-                    <span>Уведомления о выходе новых серий избранных сериалов</span>
+                    <Circle last />
+                    <span>
+                        При нажатии кнопки &quot;следующая серия&quot;, по
+                        возможности, сохраняется раннее выбранная озвучка
+                    </span>
                 </Flex>
             </ListItems>
             <Text regular>появится в следующей версии:</Text>
@@ -27,7 +33,7 @@ const AppVersions = () => (
                     Коллекция фильмов
                 </Flex>
                 <Flex>
-                    <Circle last/>
+                    <Circle last />
                     Скачивание и оффлайн просмотр
                 </Flex>
             </ListItems>

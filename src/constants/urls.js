@@ -1,1 +1,1 @@
-export const Url = 'https://firebasestorage.googleapis.com/v0/b/kalco-d7c54.appspot.com/o/app-kalco-release-v0.0.45-vc45.apk?alt=media&token=8efa692e-704e-4a69-ba4d-2febf212ce7b'
+export const Url = 'https://firebasestorage.googleapis.com/v0/b/kalco-d7c54.appspot.com/o/kalco.apk?alt=media&token=e5beefa3-235e-4067-9ca7-18d75dae5185'

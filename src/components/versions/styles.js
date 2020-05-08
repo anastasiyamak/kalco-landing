@@ -15,7 +15,7 @@ export const Container = styled.div`
         
         ${customMedia.lessThan('mobile')`
             font-size: 15px;
-            margin-bottom: 15px;
+            margin-bottom: 20px;
         `}
 
         span{
@@ -30,7 +30,7 @@ export const Container = styled.div`
 `;
 
 export const ImgWrapper = styled.div`
-    max-width: 400px;
+    max-width: 500px;
     
     img{
         width: 100%;
@@ -42,6 +42,7 @@ export const ImgWrapper = styled.div`
 
 export const ListItems = styled.div`
     margin-top: 15px;
+    margin-bottom: 20px;
 `;
 
 export const Circle = styled.div`
@@ -59,6 +60,9 @@ export const Circle = styled.div`
         right: 50%;
         transform: translateX(50%);
         height: 50px;
+        ${customMedia.lessThan('desktopSmall')`
+            height: 60px;
+        `}
     }
     ${props =>
         props.last &&
@@ -67,6 +71,19 @@ export const Circle = styled.div`
                 height: 0;
             }
         `}
+    ${props =>
+        props.first &&
+        css`
+            ${customMedia.lessThan('578px')`
+                ::after {
+                    height: 70px;
+                }
+             `}
+        `}
+
+    ${customMedia.lessThan('desktopSmall')`
+        margin: 5px 15px 40px 0;
+    `}
 
     ${customMedia.lessThan('mobile')`
         width: 8px;
